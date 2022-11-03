@@ -17,8 +17,8 @@ const logoutMessage = 'Выход выполнен';
 const limiterMessage = 'Вы превысили лимит запросов в час!';
 
 const allowedUrls = [
-  'http://localhost:3000',
   'http://localhost:3001',
+  'https://neurocity.vrtstudio.ru',
 ];
 
 module.exports = {
