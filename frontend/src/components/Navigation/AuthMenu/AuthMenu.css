@@ -1,0 +1,32 @@
+.auth-menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.auth-menu__button {
+  padding: 0 30px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: var(--text-main-color);
+  background-color: var(--button-main-bg-color);
+  text-decoration: none;
+  border-radius: 21px;
+}
+
+.auth-menu__button_color_blue {
+  background-color: var(--button-second-bg-color);
+}
+
+@media (max-width: 576px) {
+  .auth-menu {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
