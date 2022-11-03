@@ -70,6 +70,6 @@ class AuthApi {
 
 
 // const authApi = new AuthApi('http://localhost:3000');
-const authApi = new AuthApi('http://51.250.100.157/api');
+const authApi = new AuthApi('https://api.vrtstudio.ru');
 
 export default authApi;

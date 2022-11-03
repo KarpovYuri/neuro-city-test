@@ -18,7 +18,8 @@ const limiterMessage = 'Вы превысили лимит запросов в �
 
 const allowedUrls = [
   'http://localhost:3001',
-  'http://51.250.100.157',
+  'https://neurocity.vrtstudio.ru',
+  'https://karpovyuri.github.io/neuro-city-test/',
 ];
 
 module.exports = {
